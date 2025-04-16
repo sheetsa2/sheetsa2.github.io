@@ -1,6 +1,6 @@
 * {
     padding: 5px;
-    margin: 30px;
+    margin: 20px;
     }
     
     body {
@@ -22,8 +22,29 @@
     color: #dcff69;
     }
     
-    nav {
-    list-style-type: none;
-    }
-    
-    
+    a:link {
+        text-decoration: none;
+        color: #dcff69
+        }
+        
+        a:visited {
+        text-decoration: none;
+        color: #eeede4
+        }
+        
+        a:hover {
+        text-decoration: none;
+        color: #ea2171
+        }      
+
+li {
+    float:left;
+}
+
+ul {
+    list-style: none;
+}
+p {
+    column-count: 3;
+    column-gap: 40px;
+}
