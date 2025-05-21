@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abby Sheets</title>
-    <link href="Stylesheets/stylesheet.css" type="text/css" rel="stylesheet">
+
+    <link href="Stylesheets/normalize.css" type="text/css" rel="stylesheet">
+    <link href="Stylesheets/skeleton.css" type="text/css" rel="stylesheet">
+    <link href="Stylesheets/customstyle.css" type="text/css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
 </head>
-<div id="wrapper">
-    <body>
-
-        <header>
+    <body class="container">
+        <header class="row">
             <h1>Abby Sheets</h1>
 
             <h3>DSGN 372 - Digital Design</h3>
@@ -27,25 +29,24 @@
             </nav>
         </header>
 
-        <article>
-            <img src="images/frog03.jpg"/>
-                <div class="columns col-3">
-                    <p>Hello! My name is Abby (she/her) and I’m a third-year design student at WWU. My favorite part of designing is being able to work on all kinds of projects and getting to learn new skills.</p>
-                </div>
-                <div class="columns col-3">
-                    <p>I’m passionate about all kinds of design, but I especially love print and editorial. I enjoy that each project I work on requires me to learn something new. It always keeps me on my toes! Outside of designing, I love to watch movies (catch me on Letterboxd!), crafting with friends, and reading.</p>
-                </div>
-                <div class="columns col-3">
-                    <p>My favorite movies are Little Miss Sunshine, Fantastic Planet, and How to Train Your Dragon. I like to listen to music and my favorite artists are Hozier and Lord Huron. My favorite food of all time is pomegranates because they are a food I could never get sick of. Although I’m attending school in Bellingham, I love visiting my beautiful hometown, Bozeman MT. Also - I love frogs!</p>
-                </div>
+        <article class="row">
+
+            <div class="six columns">
+                <img class="u-full-width" src="images/frog03.jpg"/>
+            </div>
+
+            <div class="six columns">
+                    <p>Hello! My name is Abby (she/her) and I’m a third-year design student at WWU. My favorite part of designing is being able to work on all kinds of projects and getting to learn new skills. I’m passionate about all kinds of design, but I especially love print and editorial. I enjoy that each project I work on requires me to learn something new. It always keeps me on my toes! Outside of designing, I love to watch movies (catch me on Letterboxd!), crafting with friends, and reading. My favorite movies are Little Miss Sunshine, Fantastic Planet, and How to Train Your Dragon. I like to listen to music and my favorite artists are Hozier and Lord Huron. My favorite food of all time is pomegranates because they are a food I could never get sick of. Although I’m attending school in Bellingham, I love visiting my beautiful hometown, Bozeman MT. Also - I love frogs!</p>
+            </div>
+
         </article>
 
-        <div class="columns col-12">
-            <footer>
+        <footer class="row">
+            <div class="12 columns">
                 <p>Copyright 2025<br><a href="mailto:sheetsa2@wwu.edu"></a>sheetsa2@wwu.edu</p>
-            </footer>
-        </div>
+            </div>
+        </footer>
+
     </body>
-</div>
 
 </html>

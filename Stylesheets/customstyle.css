@@ -1,0 +1,35 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    color: #eeede4; 
+    background-color: #282624;
+}
+
+footer {
+    background-image: url("/images/glitch.jpg");
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 1em;
+    white-space: nowrap;
+}
+
+a:link {
+    text-decoration: none;
+    color: #dcff69
+    }
+    
+    a:visited {
+    text-decoration: none;
+    color: #eeede4
+    }
+    
+    a:hover {
+    text-decoration: none;
+    color: #ea2171
+    }
