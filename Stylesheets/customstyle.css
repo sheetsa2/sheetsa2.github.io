@@ -33,3 +33,26 @@ a:link {
     text-decoration: none;
     color: #ea2171
     }
+
+    @keyframes bee {
+        from {left: 0px;}
+        to {left: 500px;}
+    }
+
+img#buzz {
+    
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    animation-name: bee;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+footer:hover {
+    background-image: url("/images/frog04.jpg");
+}
