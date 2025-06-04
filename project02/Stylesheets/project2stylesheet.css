@@ -1,0 +1,73 @@
+body {
+    font-family: "Carrois Gothic", sans-serif;
+    color: #ffcfd0; 
+    font-size: 1em;
+    background-color: #27352d;
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+    font-size: 8em;
+    color: #FFCFD0;
+    text-transform: uppercase;
+}
+
+h1:hover {
+    color: #FF3662;
+    letter-spacing: .5px;
+}
+
+h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 8em;
+    color: #EAFF64;
+    text-transform: uppercase; 
+}
+
+h3 {
+    font-family: "Anton", sans-serif;
+    font-size: 4em;
+    color: #FF3662;
+    text-transform: uppercase; 
+}
+
+h4 {
+    font-family: "Carrois Gothic", sans-serif;
+    font-size: 1em;
+    color: #FF3662;
+    letter-spacing: .002px;
+}
+
+h5 {
+    font-family: "Anton", sans-serif;
+    font-size: 3em;
+    color: #EAFF64;
+    text-transform: uppercase; 
+}
+
+h6 {
+    font-family: "Anton", sans-serif;
+    font-size: 1em;
+    color: #FFCFD0; 
+}
+
+.container {
+    max-width: 5000000px; 
+}
+
+.row {
+    padding: 2em;
+}
+
+#sec01 {
+    background-color:#FFCFD0;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+
+#sec03 {
+    background-color:#FFCFD0;
+    border-radius: 25px;
+    padding: 5%;
+}
